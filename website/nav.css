@@ -1,0 +1,103 @@
+body {
+    background-image: url('groente.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: Verdana;
+}
+
+.homePic{
+    height: 35%;
+}
+
+.logo {
+    height: 120px;
+    margin-top: -120px;
+}
+
+.bar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(80,177,96);
+    margin-top: 120px;
+}
+
+.layout {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    background-color: rgba(223, 241, 227, 0.6);
+    border: 5px solid rgb(80,177,96);
+    border-radius: 10px;
+}
+
+.layoutAss {
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgba(223, 241, 227, 0.6);
+    border: 5px solid rgb(80,177,96);
+    border-radius: 10px;
+}
+
+.navigatie {
+    margin-top: -20px;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+.navButton {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.appelBar {
+    height: 80px;
+    width: 80px;
+    margin-top: -20px;
+}
+
+.accordion {
+    background-color: rgba(110, 104, 104, 0.308);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 32%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-left: 15px;
+    font-family: Verdana;
+    border-radius: 200px;
+}
+  
+.active, .accordion:hover {
+    background-color: RGBA(255,255,255,0.41); 
+}
+  
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    border: 1px black solid;
+    width: 1780;
+    background-color: rgb(245, 245, 245);
+    background: linear-gradient(90deg, rgba(225,225,225,1) 0%, rgba(245,245,255,1) 45%, rgba(255,255,255,1) 100%);
+    width: 32%;
+    border-radius: 20px;
+}
+
+.fotoYus {
+    height: 150px;
+}
+
+.headerPic {
+    width: 40%;
+
+}
